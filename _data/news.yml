@@ -131,5 +131,8 @@ events:
   text: "HTuO Biosciences will be presenting at Life Science BC's [Invest in the West](https://lifesciencesbc.ca/event/invest-in-bc-presented-by-lumira-ventures/), sponsored by Lumira Ventures. Find us in session 8, where our CEO, Dr. Anthony Fejes, will be presenting and participating in a live Q&A session hosted by LDV Partners."
   img: "../img/img-news-lumira.jpg"
   tags: ["news", "event"]
-
-
+###############
+- date: "January 17th, 2023"
+  text: "We have just released our first white paper, which describes the development of our technology - “Proof of Concept of AtomForge: A Novel Polarizable and Reactive Force Field.” Please email us at [info@htuobio.com](mailto:info@htuobio.com) if you want to read it."
+  img: "../img/img-waves.jpg"
+  tags: ["news", "event"]
