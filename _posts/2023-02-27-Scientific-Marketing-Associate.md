@@ -45,7 +45,7 @@ At HTuO, we value creativity and integrity, and have high expectations from all 
 * Additional incentives include participation in the company stock option plan, health benefits and relocation assistance.
 * Remote work is possible, but preference will be given to local candidates or candidates willing to relocate.
 
-#### How to apply:
+### How to apply:
 
 Please send your resume and cover letter to us at 
 [careers@htuobio.com](mailto:careers@htuobio.com) - we will only reply to applicants who are selected for interviews.
