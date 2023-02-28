@@ -38,12 +38,12 @@ questions:
 - question: "Why is this not the same as Alphafold2?"
   answer: "Alphafold2 is a project that takes a genetic sequence and predicts the three-dimensional structure of proteins - usually with very good outcomes. That is one of the key breakthroughs of the genomics age, opening up the possibility of new targets and mechanisms for therapies for a variety of new diseases. However, our ability to make use of this trove of information is limited by our ability to truly understand and develop new drugs for these targets - exactly what HTuO is trying to do."
 #############
+- question: "What role does a force field play in drug optimization"
+  answer: "At the risk of oversimplifying, Drug optimization requires both design and insight in order to find molecules that bind efficiently to their targets. A chemist can suggest novel molecules or functional groups to convert a good hit into a better hit, but testing the outcome requires a computational program to verify whether the modifications were successful. The better the force field used to verify the design, the more insight will be available to the chemist. HTuO's force field promises to be the most accurate way to generate insight available."
+#############
 - question: "What is a force field used for?"
   answer: "Force fields are actually incredibly versatile. Their main purpose is for calculating the energy of a given configuration, as would be the case for docking or ranking molecules, or for calculating the motions and trajectories of atoms and molecuels, as would be the case in a molecular dynamics simulation."
 #############
 - question: "What is a force field?"
   answer: "A force field is a collection of mathematical rules that govern the interaction between atoms. It's our best representation of what happens at the molecular level."
-#############
-- question: "What role does a force field play in drug optimization"
-  answer: "At the risk of oversimplifying, Drug optimization requires both design and insight in order to find molecules that bind efficiently to their targets. A chemist can suggest novel molecules or functional groups to convert a good hit into a better hit, but testing the outcome requires a computational program to verify whether the modifications were successful. The better the force field used to verify the design, the more insight will be available to the chemist. HTuO's force field promises to be the most accurate way to generate insight available."
-  
+
