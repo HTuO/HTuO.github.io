@@ -20,7 +20,7 @@ section: faq
 questions:
 
 #############
-- question: "What is a force field used for?"
+- question: "Is this Artificial Intelligence / Machine Learning?"
   answer: "No, our approach is physics based. We went back to the basics and built everything from the ground up, to come up with a model that’s new and presents some improvements over what’s currently available on other platforms. We do use machine learning algorithms to fine-tine the parameters of our system, but our core technology is based solely on recreating the relevant physics."
 #############
 - question: "Is it ready to be used?"
