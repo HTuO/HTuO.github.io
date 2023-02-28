@@ -21,7 +21,11 @@
       <div class="col-md-8 col-md-push-1">
 
         <div class="position">
-          {{ content }}
+          <ul>
+          {% for post in site.posts %}
+          <li style="margin:10px 0;"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          </ul>
         </div>
         
       </div>
