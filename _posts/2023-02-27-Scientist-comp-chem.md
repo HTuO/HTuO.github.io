@@ -21,10 +21,11 @@ At HTuO, we value creativity and integrity, and have high expectations from all 
 ### Qualifications
 * PhD in computational chemistry, computer-aided drug design or equivalent experience
 * Deep experience with molecular dynamics simulations and computer-aided drug design
-* Development experience in Python and/or C++
+* Development experience in Python would be a significant asset
 * Background in ab initio quantum chemistry is a plus
 * Early-stage computational drug development experience (hit-to-lead and lead optimization) is a plus
 * Medicinal chemistry or pharmacology background is a plus
+* Development experience in C++ is a plus
 
 
 ### Notes:
