@@ -3,7 +3,7 @@ layout: jobpost
 title: "Grant Writer"
 ---
 
-### Scientific Marketing Associate
+### Grant Writer
 
 HTuO Biosciences is a rapidly growing company working at the interface of chemistry and computer programming. We are developing an advanced molecular modelling platform capable of accurately predicting the behaviour of molecules.  Our technology will be a major advance in the field of drug discovery, significantly improving the rate at which we can develop new drugs.
 
