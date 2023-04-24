@@ -160,10 +160,10 @@ p, label, li, ol {
 }
 
 ul, ol, li {
-  list-style-type: none;
+  list-style-type: disc;
   color: rgba(var(--white),1);
   margin: 0;
-  padding: 0;
+  padding-left: 20px;
 }
 
 a {
