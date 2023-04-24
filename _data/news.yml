@@ -138,6 +138,6 @@ events:
   tags: ["news", "event"]
 ###############
 - date: "Apr 24, 2023"
-  text: "Our CEO, Dr. Anthony Fejes, and Director of Business Development, Mr. Jacek Mis, will be in Boston, June 5-8 at the [2023 BIO International Convention](https://www.bio.org/events/bio-international-convention). Connect with us through the partnering portal or email us directly to learn about our technology and its therapeutic potential.” Please email us at [info@htuobio.com](mailto:info@htuobio.com) if you want to connect with us outside of the conference."
+  text: "Our CEO, Dr. Anthony Fejes, and Director of Business Development, Mr. Jacek Mis, will be in Boston, June 5-8 at the [2023 BIO International Convention](https://www.bio.org/events/bio-international-convention). Connect with us through the partnering portal or email us directly to learn about our technology and its therapeutic potential."
   img: "../img/news/BIO_2023.jpeg"
   tags: [ "news", "event" ]
