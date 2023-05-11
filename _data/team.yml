@@ -63,10 +63,19 @@ Dr. Lin joined HTuO Biosciences in January 2021, bringing with him a broad exper
   image: img/team/samantha.png
   text: "Samantha, or Sam for short, is originally from Toronto, having graduated from George Brown College with a specialization in Business Management.  She has extensive experience in project management, policy and procedure, recruiting, hiring, onboarding and sales excellence. Her background supports her role as Office Manager, as she delves into data analysis and reporting, corporate communications, event coordination, community management and employee engagement and advocacy. She is always interested in getting involved in causes that are important to her.  Samantha is passionate about client relations and thrives on collaboration during project teams. Outside of work, she loves cooking (and eating), travelling (mainly to eat), camping (to eat outside), and, of course, spending time with her pets."
 ######################################################
+- name: "Marie-Claire Veilleux-Foppiano"
+  role: "Marketing Specialist"
+  image: img/team/500x500_question.svg
+  text: "Marie-Claire is a life science marketer with a BSc from the University of British Columbia and is currently in the PMBA program at UBC’s Sauder School of Business.  At HTuO she contributes to the marketing strategy by bringing over six years of experience in the biotechnology and CRO industry. In her free time, she likes to hike, ski, and play disc golf."
+######################################################
+- name: "Mohammad Salem"
+  role: "Scientist - Computational Chemistry"
+  image: img/team/500x500_question.svg
+  text: "TBA"
+######################################################
 # - name: "Your Name"
 #   role: "Future Scientist"
 #   image: img/team/500x500_question.svg
 #   text: "TBA"
-
 
 
