@@ -89,6 +89,7 @@
             <p>{{ person.text }}</p>
           </div>
         </div>
+        {% endfor %}
       </div>
       <div class="team-list-2" :class="{active: teamActive}">
         {% for person in site.data.team.people %}
@@ -103,6 +104,7 @@
             <p>{{ person.text }}</p>
           </div>
         </div>
+        {% endfor %}
       </div>
     </div>
   </div>
