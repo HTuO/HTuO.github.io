@@ -10,22 +10,13 @@
 # English (default)
 # -----------------
 title: "Team"
-cofounder:
+people:
 ######################################################
 - name: "Dr. Anthony Fejes"
   role: "Co-Founder and CEO"
   image: "img/team/Anthony Fejes.jpg"
   text: "Dr. Anthony Fejes holds undergraduate degrees in biochemistry and Independent Studies (Bioinformatics) from the University of Waterloo, as well as a Masters degree in Microbiology & Immunology and a PhD in Bioinformatics from the University of British Columbia. Anthony started his science career as the scientific co-founder and Chief Scientific Officer at Zymeworks Inc, before working for companies such as Fabric Genomics and Tenaya Therapeutics in the Bay Area and New York based SolveBio.  His experience pairs over 20 years of professional experience as a programmer with a deep background in genomics, biochemistry and data analysis, as well as a decade of management and startup experience."
 ######################################################
-- name: "Alex Shynkarenko"
-  role: "Co-Founder and CTO"
-  image: "img/team/Alex Shynkarenko.jpg"
-  text: "Alexander Shynkarenko is a computational biologist and data scientist. He graduated from Igor Sikorsky Kyiv Polytechnic Institute with a Master’s in Bioinformatics. and started his career in biotech as a co-founder of Biotopia, the first open labspace in Ukraine, before moving to computational biology. 
-
-Most recently, he worked as a bioinformatician at Ryvu Therapeutics, a Polish drug discovery company, where he provided data science, machine learning, and bioinformatics analyses for novel anticancer drug candidate programs. Alexander is also a board member at Genomics UA, Ukraine’s largest computational biology professional network."
-######################################################
-######################################################
-people:
 - name: "Dr. Yi-Hsuan Lin"
   role: "Research & Development Lead"
   image: "img/team/Yi-Hsuan Lin.jpg"
