@@ -1,6 +1,6 @@
 ---
 layout: jobpost
-title: "Manager/Director of Technology"
+title: "Senior Accountant"
 ---
 
 ### Senior Accountant
