@@ -3,7 +3,7 @@ layout: jobpost
 title: "Manager/Director of Technology"
 ---
 
-### Manager/Director of Technology
+### Senior Accountant
 
 HTuO Biosciences is looking for a Senior Accountant to join the organization.  We are looking to bring on an individual who can manage our financial operations, and grow along with the company, as we emerge from being research oriented into commercialization.
 
