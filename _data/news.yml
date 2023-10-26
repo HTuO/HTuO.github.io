@@ -153,10 +153,8 @@ The poster will also be at the COMP division session at ACS on August 15th from 
   img: "../img/news/ACS_2023_SciMix.png"
   tags: [ "news", "event" ]
 ##############
-- date: "Aug 11, 2023"
-  text: "HTuO Biosciences has completed the MVP of AtomForge — a novel polarizable and reactive force field for molecular modelling with applications for drug optimization.
-
-We have released a new white paper reviewing the performance of AtomForge and how it is comparable, and in some cases outperforms, traditional force fields. Contact us at info@htuo.bio for a copy. 
+- date: "October 26, 2023"
+  text: "HTuO Biosciences will be presenting at Life Science BC’s Invest in BC, presented by Lumira Ventures, on November 2, 2023. Find us in session 4, where our CEO, Dr. Anthony Fejes, will be sharing our progress and exciting future opportunities."
 "
-  img: "../img/news/WP_2.png"
+  img: "../img/news/Invest-in-BC-2023.png"
   tags: [ "news", "event" ]
