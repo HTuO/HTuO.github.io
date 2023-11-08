@@ -64,6 +64,11 @@ Dr. Lin joined HTuO Biosciences in January 2021, bringing with him a broad exper
   image: "img/team/Mohammad Salem.jpg"
   text: "Dr. Mohammad Alaraby Salem obtained his Ph.D. in DFT and QM calculations from the University of Alberta, supported by a prestigious provost entry award. During his postdoc in Germany, he studied the energy decomposition analysis of small organic molecules under the supervision of Professor Thomas Kühne. He also held the position of Assistant Professor of Pharmaceutical Chemistry at two universities in Egypt. Dr. Salem published more than 25 international peer-reviewed articles in the fields of computational chemistry and molecular modeling. Notably, his academic journey began with a significant accomplishment, ranking first among all high school students across Egypt."
 ######################################################
+- name: "Jason Loscher"
+  role: "Director of Technology"
+  image: "img/team/Jason-Loscher.png"
+  text: "Jason came to Vancouver by way of Ontario, to earn his Bachelor's Degree in Computer Science. He interned in the gaming industry in Montreal and also spent a few years in the Far North working on software in the finance sector, eventually returning to BC and working for many customers on diverse problems in the data, data connectivity, and data analytics fields. Prior to joining HTuO, Jason managed a development team working on novel machine learning powered software medical devices. When he isn't working on software, you can usually find him exploring Vancouver's coastal waters, or out on the golf course."
+######################################################
 # - name: "Your Name"
 #   role: "Future Scientist"
 #   image: img/team/500x500_question.svg
