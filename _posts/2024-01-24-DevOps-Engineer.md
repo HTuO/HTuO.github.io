@@ -3,7 +3,7 @@ layout: jobpost
 title: "DevOps Engineer"
 ---
 
-### Software Engineer
+### DevOps Engineer
 
 HTuO Biosciences Inc. is looking for a DevOps Engineer to join our team. The ideal candidate  who joins our company will be a key member of our core team, supporting the deployment of our tools through various stages of development. Consequently, we are looking for a candidate who has broad experience with various platforms and hardware to meet the demands of scientific software deployment, both on our in-house servers and to the cloud.
 
