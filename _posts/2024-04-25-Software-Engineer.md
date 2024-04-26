@@ -19,7 +19,7 @@ At HTuO, we value creativity and integrity and expect high performance from all 
 
 ### Qualifications:
 * Development experience in C or C++, and Python is required
-* Experience with git, test driven development and software optimisation are required
+* Experience with git, test driven development and software optimization are required
 * 2+ years of professional software development experience is required
 * Knowledge of software development processes would be an asset
 * Being comfortable with the Linux terminal and Bash scripting would be an asset
