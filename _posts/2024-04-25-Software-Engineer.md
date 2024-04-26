@@ -26,11 +26,14 @@ At HTuO, we value creativity and integrity and expect high performance from all 
 * Knowledge of GPU programming would be an asset
 * DevOps experience would be an asset
 
+### Compensation
+* Salary range: $70-85,000 CAD/year
+* Additional incentives include participation in the company stock option plan, health benefits and relocation assistance.
+
 ### Notes
 * This position is open only to Canadian citizens or those already authorized to work in Canada.
 * We encourage diversity and will not tolerate discrimination in any form.
 * Only applicants that are selected for interviews will be contacted.
-* Additional incentives include participation in the company stock option plan, health benefits and relocation assistance.
 * HTuO currently uses a hybrid work schedule with a minimum of two days in the office per week.
 
 ### How to apply:
