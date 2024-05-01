@@ -44,5 +44,9 @@ We invite applications from both qualified Canadian and international candidates
 
 ### How to apply:
 
-Please send your resume and cover letter to us at 
-[careers@htuobio.com](mailto:careers@htuobio.com)
+To be considered for this position, please email the following to [careers@htuobio.com](mailto:careers@htuobio.com):
+* Resume
+* Cover Letter, including:
+  * General overview of your interest in this role
+  * Your qualifications and relevant experience(s)
+  * Please incorporate the word ‘water’ in your cover letter
