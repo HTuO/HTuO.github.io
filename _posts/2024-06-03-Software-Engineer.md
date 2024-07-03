@@ -27,7 +27,7 @@ At HTuO, we value creativity and integrity and expect high performance from all 
 * DevOps experience would be an asset
 
 ### Compensation
-* Salary range: $70-85,000 CAD/year
+* Salary range: $75-95,000 CAD/year
 * Additional incentives include participation in the company stock option plan, health benefits and relocation assistance.
 
 ### Notes
