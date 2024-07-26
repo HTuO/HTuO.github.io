@@ -199,6 +199,6 @@ The poster will also be at the COMP division session at ACS on August 15th from 
   tags: [ "news", "event" ]
 ###############
 - date: "July 26, 2024"
-text: "Our scientists, Dr. Yi-Hsuan Lin and Dr. Ahmed Ayoub, will be attending the ACS Fall 2024 conference from August 18 to 22 in Denver, Colorado. They will be presenting two posters: one titled 'AtomForge: Advances in the development of a novel polarizable and reactive force field (#4103171)' and the other titled 'AtomForge: a novel, reactive and polarizable force field for multi-scale simulations of small molecules and macromolecules in drug discovery (#4103302)."
+text: "Our scientists, Dr. Yi-Hsuan Lin and Dr. Ahmed Ayoub, will be attending the [ACS Fall 2024](https://www.acs.org/meetings/acs-meetings/fall.html) conference from August 18 to 22 in Denver, Colorado. They will be presenting two posters: one titled 'AtomForge: Advances in the development of a novel polarizable and reactive force field (#4103171)' and the other titled 'AtomForge: a novel, reactive and polarizable force field for multi-scale simulations of small molecules and macromolecules in drug discovery (#4103302)."
 img: "../img/news/acs-fall-2024.png"
 tags: [ "news", "event"]
