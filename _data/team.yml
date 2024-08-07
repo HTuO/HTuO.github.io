@@ -59,6 +59,11 @@ Dr. Lin joined HTuO Biosciences in January 2021, bringing with him a broad exper
   image: "img/team/Jason-Loscher.png"
   text: "Jason came to Vancouver by way of Ontario, to earn his Bachelor's Degree in Computer Science. He interned in the gaming industry in Montreal and also spent a few years in the Far North working on software in the finance sector, eventually returning to BC and working for many customers on diverse problems in the data, data connectivity, and data analytics fields. Prior to joining HTuO, Jason managed a development team working on novel machine learning powered software medical devices. When he isn't working on software, you can usually find him exploring Vancouver's coastal waters, or out on the golf course."
 ######################################################
+- name: "Jason Loscher"
+  role: "Director of Technology"
+  image: "img/team/Mathew-Neal.png"
+  text: "Dr. Mathew Philip Neal holds Masters and PhD degrees in computational chemistry from Queen’s and University of Toronto respectively. His published works cover a full spectrum - from molecular scale high performance quantum chemical calculations, to biological scale molecular mechanics simulations. He has nearly a decade of experience performing computational neurodegenerative disease research at the Krembil Brain Institute."
+######################################################
 # - name: "Your Name"
 #   role: "Future Scientist"
 #   image: img/team/500x500_question.svg
