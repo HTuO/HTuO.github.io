@@ -1,6 +1,6 @@
 ---
 layout: jobpost
-title: "Software Engineer"
+title: "Scientist - Molecular Modeling & Development"
 ---
 
 ### Scientist - Molecular Modeling & Development

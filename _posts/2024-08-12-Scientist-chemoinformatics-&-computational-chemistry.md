@@ -1,6 +1,6 @@
 ---
 layout: jobpost
-title: "Software Engineer"
+title: "Scientist - Chemoinformatics & Computational Chemistry"
 ---
 
 ### Scientist - Chemoinformatics & Computational Chemistry
