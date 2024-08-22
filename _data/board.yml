@@ -1,0 +1,31 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+title: "Board"
+people:
+######################################################
+- name: "Alvin Chubbs"
+  role: "Board Member"
+  text: ""
+######################################################
+- name: "Chris Bradbury"
+  role: "Board Member"
+  text: ""
+######################################################
+- name: "Neil Klompas"
+  role: "Independent Board Member"
+  text: ""
+######################################################
+# - name: "Your Name"
+#   role: "Future Scientist"
+#   text: "TBA"
+
+
