@@ -13,16 +13,20 @@ title: "Board"
 people:
 ######################################################
 - name: "Alvin Chubbs"
-  role: "Board Member"
-  text: ""
+  role: "e-Fund"
+  link: "https://www.linkedin.com/in/alvin-chubbs-9362204/"
+######################################################
+- name: "Anthony Fejes"
+  role: "Founder & CEO at HTuO Biosciences"
+  link: "https://www.linkedin.com/in/apfejes/"
 ######################################################
 - name: "Chris Bradbury"
-  role: "Board Member"
-  text: ""
+  role: "SWAN Venture Fund"
+  link: "https://www.linkedin.com/in/chris-bradbury-81b619/"
 ######################################################
 - name: "Neil Klompas"
-  role: "Independent Board Member"
-  text: ""
+  role: "President & CEO at Augurex Life Sciences"
+  link: "https://www.linkedin.com/in/nklompas/"
 ######################################################
 # - name: "Your Name"
 #   role: "Future Scientist"
