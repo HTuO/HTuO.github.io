@@ -125,16 +125,15 @@
     </div>
     <div class="row">
       <div class="team-list-2" :class="{active: teamActive}">
-        {% for person in site.data.board.people %}
-        <div class="person" ref="person-{{forloop.index}}">
+        {% for boardmember in site.data.board.people %}
+        <div class="person" ref="boardmember-{{forloop.index}}">
           <div class="title">
-            <h6 @click="{{person.link}}">{{ person.name}}</h6>
-            <p>{{ person.role }}</p>
+            <h6 @click="{{boardmember.link}}">{{boardmember.name}}</h6>
+            <p>{{boardmember.role }}</p>
           </div>
         </div>
         {% endfor %}
       </div>
-
     </div>
   </div>
 </section>
