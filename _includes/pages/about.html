@@ -128,8 +128,8 @@
         {% for boardmember in site.data.board.people %}
         <div class="person" ref="boardmember-{{forloop.index}}">
           <div class="title">
-            <h6><a href="{{boardmember.link}}">{{boardmember.name}}</a></h6>
-<!--            <p>{{boardmember.role }}</p>-->
+            <h6><a href="{{boardmember.link}}" class="nav-item">{{boardmember.name}}</a></h6>
+            <p>{{boardmember.role }}</p>
           </div>
         </div>
         {% endfor %}
