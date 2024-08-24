@@ -16,10 +16,6 @@ people:
   role: "e-Fund"
   link: "https://www.linkedin.com/in/alvin-chubbs-9362204/"
 ######################################################
-- name: "Anthony Fejes"
-  role: "Founder & CEO at HTuO Biosciences"
-  link: "https://www.linkedin.com/in/apfejes/"
-######################################################
 - name: "Chris Bradbury"
   role: "SWAN Venture Fund"
   link: "https://www.linkedin.com/in/chris-bradbury-81b619/"
@@ -27,6 +23,10 @@ people:
 - name: "Neil Klompas"
   role: "President & CEO at Augurex Life Sciences"
   link: "https://www.linkedin.com/in/nklompas/"
+######################################################
+- name: "Anthony Fejes"
+  role: "Founder & CEO at HTuO Biosciences"
+  link: "https://www.linkedin.com/in/apfejes/"
 ######################################################
 # - name: "Your Name"
 #   role: "Future Scientist"
