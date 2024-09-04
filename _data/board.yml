@@ -1,0 +1,35 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+title: "Board"
+people:
+######################################################
+- name: "Alvin Chubbs"
+  role: "e-Fund"
+  link: "https://www.linkedin.com/in/alvin-chubbs-9362204/"
+######################################################
+- name: "Chris Bradbury"
+  role: "SWAN Venture Fund"
+  link: "https://www.linkedin.com/in/chris-bradbury-81b619/"
+######################################################
+- name: "Neil Klompas"
+  role: "President & CEO at Augurex Life Sciences"
+  link: "https://www.linkedin.com/in/nklompas/"
+######################################################
+- name: "Anthony Fejes"
+  role: "Founder & CEO at HTuO Biosciences"
+  link: "https://www.linkedin.com/in/apfejes/"
+######################################################
+# - name: "Your Name"
+#   role: "Future Scientist"
+#   text: "TBA"
+
+
