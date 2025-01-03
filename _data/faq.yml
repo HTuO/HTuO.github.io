@@ -20,30 +20,36 @@ section: faq
 questions:
 
 #############
-- question: "Is this Artificial Intelligence / Machine Learning?"
-  answer: "No, our approach is physics based. We went back to the basics and built everything from the ground up, to come up with a model that’s new and presents some improvements over what’s currently available on other platforms. We do use machine learning algorithms to fine-tune the parameters of our system, but our core technology is based solely on recreating the relevant physics."
+- question: "How can I work with HTuO?"
+  answer: "It's as simple as reaching out to us - we're here and ready to work with you on your drug design, screening or simulation projects.  Reach out to us at <a href='info@htuobio.com'>info@htuobio.com</a>"
 #############
-- question: "Can I buy it?"
-  answer: "HTuO is not selling or licensing the software we have developed. However, if you’re interested in working with us to generate insight into a problem you’re working on, please reach out to us at info@htuobio.com We’ll be happy to assist you."
+- question: "What information can I get from the AtomForge platform in High-Throughput mode?"
+  answer: "AtomForge's High-thoughput mode uses our core physics and mathematical models to provide a score for the molecule in question. Because of the platform's high accuracy physics model, it is possible to correctly rank molecules as they interact with a target protein and to compare directly between molecules.  However, because this mode does not include full solvation (but can include key water molecules), the score is not the full free energy calculation.  We can provide information from the ranking of molecules all the way up to full interaction calculations, as desired."
 #############
+- question: "What information can I get from the AtomForge platform in High-Accuracy mode?"
+  answer: "AtomForge's High-accuracy mode builds on our core physics and mathematics to include Molecular Dynamics and Free Energy Perturbation.  This allows us to compare drugs or simulate systems using fully solvated systems, bringing a wide full range of functionality to any drug design project."
+#############
+- question: "Is your platform secure?"
+  answer: "HTuO is set up to work on a variety of secure platforms, including both in-house on our secure servers or on single-use, cloud deployed secure locations to keep confidential information from touching our local servers.  If you have questions about our platform, feel free to reach out to us to ask how we can help you and keep your information secure."
+#############
+- question: "Does your platform use AI?"
+  answer: "We do not use AI to generate results for our partners - our technology is physics driven, based on rigorously derived equations.  However, we have used advanced ML and statistics methods to test and learn how to adapt our platform to ensure it meets our high standards of chemistry predictions.  These techniques have allowed us to rapidly solve complex problems that have plagued our field for the past 40 years."
+#############
+- question: "Does this compete with Generative AI Drug Discovery?"
+  answer: "No, our technology is complementary to AI approaches.  At a high level, Generative AI is used to come up with new ideas for drugs and propose new chemistry ideas, while HTuO's strength is in evaluating new ideas and working out which drug will work the best - and why it will work."
+###########
+- question: "Are there advantages to AtomForge over using AI?"
+  answer: "Absolutely!  AI solutions require training data for each new protein of interest, where AtomForge's solution can work on any system, including those targets for which no drugs currently exist.  AtomForge's high accuracy predictions and Molecular Dynamics implementation allows for deep insight generation: Not only do you get the right answer, but you also understand why and how the systems work."
+###########
 - question: "Is this a Quantum Mechanics approach?"
-  answer: "No, it’s based on traditional Newtonian physics. We understand that the goal of the simulations is to get as close to Quantum Mechanics (QM) as possible, without incurring the performance penalties associated with it. However, what we’ve shown is that Newtonian physics still has room for more accuracy."
+  answer: "No, it’s based on traditional Newtonian physics. We understand that the goal of the simulations is to get as close to Quantum Mechanics (QM) as possible, without incurring the performance penalties associated with it.  In this respect, we've solved a number of problems that let us get closer to this goal than our competitors."
+#############
+- question: "Can I licence your software?"
+  answer: "HTuO is not selling or licensing the software we have developed. However, if you’re interested in working with us to generate insight into a problem you’re working on, please reach out to us at <a href='info@htuobio.com'>info@htuobio.com</a>. We’ll be happy to assist you."
 #############
 - question: "Do you need a training set to work on a molecule or specific target?"
-  answer: "No! Unlike AI, our platform is based entirely on physics. Once it’s parameterized for a specific atom, it’s parameterized for any molecule that uses that atom. There aren’t 22 different types of carbon atoms in real life, so we shouldn’t need 22 to represent how a carbon atom behaves. This is a big departure from both traditional molecular models that need many atom types, as well as from AI, where you need a big data set to correctly fix the atomic properties of every atom in the system for each new data set. The simplicity of our model sets it apart - and we don’t need to retrain our system for each experiment."
+  answer: "No! Unlike AI, our platform is based entirely on physics. Our chemistry predictions are universally applicable, allowing AtomForge to simulate any system without any training data requirements at all."
 #############
-- question: "Why is this not the same as Alphafold2?"
+- question: "Is this like Alphafold2?"
   answer: "Alphafold2 is a project that takes a genetic sequence and predicts the three-dimensional structure of proteins - usually with very good outcomes. That is one of the key breakthroughs of the genomics age, opening up the possibility of new targets and mechanisms for therapies for a variety of new diseases. However, our ability to make use of this trove of information is limited by our ability to truly understand and develop new drugs for these targets - exactly what HTuO is trying to do."
 #############
-- question: "Is it ready to be used?"
-  answer: "Our core technology is currently being validated and scaled, with the expected launch date at the end of Q4 2024. If you’d like to receive updates on our progress or would like to propose a collaboration, we’d be happy to hear from you. Email us at info@htuobio.com and we will get back to you as quickly as possible."
-#############
-- question: "What role does a force field play in drug optimization"
-  answer: "At the risk of oversimplifying, drug optimization requires both design and insight in order to find molecules that bind efficiently to their targets. A chemist can suggest novel molecules or functional groups to convert a good hit into a better hit, but testing the outcome requires a computational program to verify whether the modifications were successful. The better the force field used to verify the design, the more insight will be available to the chemist. HTuO's force field promises to be the most accurate way to generate insight available."
-#############
-- question: "What is a force field used for?"
-  answer: "Force fields are actually incredibly versatile. Their main purpose is for calculating the energy of a given configuration, as would be the case for docking or ranking molecules, or for calculating the motions and trajectories of atoms and molecules, as would be the case in a molecular dynamics simulation."
-#############
-- question: "What is a force field?"
-  answer: "A force field is a collection of mathematical rules that govern the interaction between atoms. It's our best representation of what happens at the molecular level."
-
