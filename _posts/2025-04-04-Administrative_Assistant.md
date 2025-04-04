@@ -60,6 +60,6 @@ The annual base salary for this position ranges from $50,000-$60,000.
 We invite applications from qualified Canadian candidates. Our commitment to diversity means we reject all forms of discrimination. Only those selected for interviews will be contacted. Priority will be given to local candidates.
 
 To be considered for this position, please email the following along with your resume to careers@htuobio.com:
-* Cover Letter, including a General overview of your interest in this role
+* Cover Letter, including a general overview of your interest in this role
 * Your qualifications and relevant experience(s)
 * Incorporate the word ‘water’ in your cover letter
