@@ -1,6 +1,7 @@
 ---
 layout: jobpost
 title: "Administrative Assistant"
+date: 2025-04-04
 ---
 
 ### Administrative Assistant
