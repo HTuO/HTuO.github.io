@@ -3,7 +3,6 @@ layout: jobpost
 title: "Administrative Assistant"
 ---
 
-
 ### Administrative Assistant
 
 ### Who Are We:
