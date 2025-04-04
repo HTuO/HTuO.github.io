@@ -48,7 +48,7 @@ Full-Time, Monday-Friday, 9am-4pm
 * This position will be in person a minimum of two days per week
 * High school diploma or equivalent; additional qualification as an Administrative Assistant or Secretary will be a plus.
 
-## Company Benefits:
+### Company Benefits:
 * Flexible hours, generous PTO and sick leave
 * Health, dental and vision benefits
 * Company stock option plan
