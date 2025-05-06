@@ -41,7 +41,7 @@ Vancouver, BC (Hybrid, 2-3 days in office)
 * Company stock option plan
 
 ### Compensation
-The annual base salary for this position ranges from $85,000-$96,000.
+The annual base salary for this position ranges from $85,000-$105,000.
 
 ### How to apply:
 We invite applications from qualified Canadian candidates. Our commitment to diversity means we reject all forms of discrimination. Only those selected for interviews will be contacted. Priority will be given to local candidates.
