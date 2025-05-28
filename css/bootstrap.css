@@ -1592,6 +1592,12 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
+.rounded-box {
+      width: 90%;
+      margin: 20px auto;          /* centers the box */
+      padding: 20px;
+      border-radius: 16px;        /* rounded corners */
+}
 .col-mobile-6 {
   width: 50%;
    @media (max-width: 767px) {
