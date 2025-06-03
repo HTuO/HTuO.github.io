@@ -223,13 +223,18 @@ The poster will also be at the COMP division session at ACS on August 15th from 
   img: "../img/news/LSINW25.png"
   tags: [ "news", "event" ]
 ##############
-- date: "June 16, 2025"
+- date: "May 7, 2025"
   text: "Our CEO, Dr. Anthony Fejes, and Director of Business Development, Mr. Jacek Mis, will be in Boston, June 16-19 at the [2025 BIO International Convention](https://convention.bio.org/). Connect with us through the partnering portal or email us directly to learn about our technology and its drug discovery potential."
   img: "../img/news/bio_2025_news_8.png"
   tags: [ "news", "event" ]
 ##############
-- date: "May 29, 2025"
+- date: "May 16, 2025"
   text: "CEO, Dr. Anthony Fejes, will be presenting at the Pitch Competition taking place on May 29 in the BC Pavilion at [Web Summit Vancouver](https://vancouver.websummit.com/). Please join us, along with thousands of international entrepreneurs, investors, media and leaders in an event to connect the tech world."
   img: "../img/news/websummit_2025.png"
+  tags: [ "news", "event" ]
+##############
+- date: "June 3, 2025"
+  text: "We are excited to announce our CEO, Dr. Anthony Fejes will take the stage at the BIOTECanada Coast-to-Coast competition at [BIO 2025](https://convention.bio.org/) on Wednesday June 18 at 10AM in the Canada Pavilion, Booth 1038 in the Boston Convention & Exhibition Center, Boston. This unique event highlights five promising biotech companies from across Canada, each delivering a focused, no-slide pitch to a panel of leading investors and pharma executives."
+  img: "../img/news/bio2025_presenting2.png"
   tags: [ "news", "event" ]
 ##############
