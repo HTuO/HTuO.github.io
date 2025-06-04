@@ -756,6 +756,11 @@ section {
   background: linear-gradient(141deg, rgba(var(--primary-acc),1) 0%, rgba(var(--primary),1) 100%);
 }
 
+.fill-light-blue {
+  background: rgba(var(--secondary), 1);
+  background: linear-gradient(141deg, rgba(var(--secondary),1) 0%, rgba(var(--secondary),1) 100%);
+}
+
 .fill-blue-grad {
   background: linear-gradient(141deg, rgba(var(--primary ),1) 0%, rgba(var(--acc-pink),1) 150%);
 
