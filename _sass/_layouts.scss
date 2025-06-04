@@ -332,6 +332,16 @@ section {
   }
 }
 
+.text-white {
+  h1,h2,h3,h4,h5,h6 {
+    color: rgba(var(--light),1);
+  }
+
+  small {
+    color: rgba(var(--light),0.8);
+  }
+}
+
 .section-banner {
   .row {
     display: flex;
