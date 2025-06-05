@@ -168,11 +168,11 @@ section {
     padding-bottom: 5em;
 
     p {
-      color: rgba(var(-text-white),1);
+      color: rgba(var(--light),1);
     }
 
     small {
-      color: rgba(var(--light),1);
+      color: rgba(var(--light),0.9);
     }
 
     @media (max-width: 767px) {
