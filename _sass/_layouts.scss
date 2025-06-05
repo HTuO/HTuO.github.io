@@ -333,6 +333,9 @@ section {
 }
 
 .text-white {
+  padding-top: 8em;
+  padding-bottom: 8em;
+  
   h1, 
   h2, 
   h3, 
@@ -340,11 +343,11 @@ section {
   h5, 
   h6,
   p {
-    color: rgba(var(--light), 1);
+    color: rgba(var(--light), 0.9);
   }
 
   small {
-    color: rgba(var(--light), 0.9);
+    color: rgba(var(--light), 0.8);
   }
 
   @media (max-width: 767px) {
