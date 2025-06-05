@@ -168,7 +168,7 @@ section {
     padding-top: 8em;
     padding-bottom: 8em;
     display: flex; //newly added
-    //flex-direction: column; /* allow vertical padding and content flow */
+    flex-direction: column; /* allow vertical padding and content flow */
     justify-content: center; /* vertically center content */
 
     p {
