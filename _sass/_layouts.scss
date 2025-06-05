@@ -332,15 +332,28 @@ section {
   }
 }
 
-.text-white h1,
-.text-white h2,
-.text-white h3,
-.text-white h4,
-.text-white h5,
-.text-white h6,
-.text-white p,
-.text-white small {
-  color: rgba(var(--light), 1);
+.text-white {
+  h1, 
+  h2, 
+  h3, 
+  h4, 
+  h5, 
+  h6,
+  p {
+    color: rgba(var(--light), 1);
+  }
+
+  small {
+    color: rgba(var(--light), 0.9);
+  }
+
+  padding-top: 8em;
+  padding-bottom: 8em;
+
+  @media (max-width: 767px) {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
 }
 
 .section-banner {
