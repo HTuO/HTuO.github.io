@@ -109,8 +109,12 @@
   position: relative;
   top: 0;
   z-index: 0;
-  background: rgba(var(--link), 1);
-  background: linear-gradient(141deg, rgba(var(--primary ),1) 0%, rgba(var(--acc-pink),1) 150%);
+  background-color: rgba(var(--link), 1);
+  background-image: linear-gradient(
+    141deg,
+    rgba(var(--primary), 1) 0%, 
+    rgba(var(--acc-pink), 1) 150%
+  );
 
   .banner-block {
     max-width: 50%;
