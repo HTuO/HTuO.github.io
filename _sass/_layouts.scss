@@ -168,11 +168,11 @@ section {
     padding-bottom: 8em;
 
     p {
-      color: rgba(var(--text-light));
+      color: rgba(var(--text-light), 0.9);
     }
 
     small {
-      color: rgba(var(--light),0.5);
+      color: rgba(var(--light),0.8);
     }
 
     @media (max-width: 767px) {
@@ -333,8 +333,7 @@ section {
 }
 
 .text-white {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  
   display: flex;
   flex-direction: column; /* allow vertical padding and content flow */
   justify-content: center; /* vertically center content */
