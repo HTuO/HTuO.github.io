@@ -167,9 +167,6 @@ section {
   .text-block {
     padding-top: 8em;
     padding-bottom: 8em;
-    display: flex; //newly added
-    flex-direction: column; /* allow vertical padding and content flow */
-    justify-content: center; /* vertically center content */
 
     p {
       color: rgba(var(--light), 0.9);
