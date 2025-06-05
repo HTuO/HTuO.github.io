@@ -328,11 +328,11 @@ section {
   }
 
   p {
-    color: rgba(var(--light));
+    color: rgba(var(--light), 0.9);
   }
 
   small {
-    color: rgba(var(--light),0.5);
+    color: rgba(var(--light),0.8);
   }
 }
 
