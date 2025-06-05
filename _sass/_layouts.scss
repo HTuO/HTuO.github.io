@@ -106,12 +106,8 @@
   position: relative;
   top: 0;
   z-index: 0;
-  // Top-to-bottom gradient from dark to primary
-  background: linear-gradient(
-    to bottom,
-    rgba(var(--dark), 1),
-    rgba(var(--primary), 1)
-  );
+  background: rgba(var(--link), 1);
+  background: linear-gradient(141deg, rgba(var(--primary ),1) 0%, rgba(var(--acc-pink),1) 150%);
 
   .banner-block {
     max-width: 50%;
