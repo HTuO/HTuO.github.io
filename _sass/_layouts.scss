@@ -4,7 +4,7 @@
 }
 
 // Main Banner Home
-.main-banner {
+/*.main-banner {
   //min-height: 1020px;
   min-height: 850px;
   height: 100%;
@@ -12,7 +12,17 @@
   justify-content: center; // testing
   top: 0;
   z-index: 0;
-  //padding-top: 80px;
+  //padding-top: 80px; */
+
+  .main-banner {
+  display: flex;
+  flex-direction: column; /* stack children vertically */
+  justify-content: center; /* vertical centering */
+  min-height: 850px; /* or whatever height you want */
+  height: 100%;
+  position: relative;
+  top: 0;
+  z-index: 0;
 
   &:after {
     content: "";
