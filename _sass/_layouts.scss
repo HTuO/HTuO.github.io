@@ -164,15 +164,15 @@ section {
   }
 
   .text-block {
-    padding-top: 8em;
-    padding-bottom: 8em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 
     p {
       color: rgba(var(--text-white));
     }
 
     small {
-      color: rgba(var(--light),0.5);
+      color: rgba(var(--light),1);
     }
 
     @media (max-width: 767px) {
