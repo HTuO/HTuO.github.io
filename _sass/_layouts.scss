@@ -227,7 +227,7 @@ section {
     .image {
       height: 100%;
       width: calc(100% + 50vw);
-      background-color: rgba(var(--primary), 0.1);
+      background-color: rgba(var(--primary), 0);//0.1
       background-size: cover !important;
       background-position: right center;
       background-repeat: no-repeat;
