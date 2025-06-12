@@ -192,24 +192,23 @@ section {
     }
   }
 
-  .text-block {
-  padding-top: 0;
-  padding-bottom: 0;
+ .text-block {
+    padding-top: 8em;
+    padding-bottom: 8em;
 
-  p {
-    color: rgba(var(--light), 0.9);
-  }
+    p {
+      color: rgba(var(--light), 0.9);
+    }
 
-  small {
-    color: rgba(var(--light), 0.8);
-  }
+    small {
+      color: rgba(var(--light),0.8);
+    }
 
-  // Apply spacing only on small screens (mobile/tablet)
-  @media (max-width: 767px) {
-    padding-top: 5em;
-    padding-bottom: 5em;
+    @media (max-width: 767px) {
+      padding-top: 5em;
+      padding-bottom: 5em
+    }
   }
-}
   
 
   &.fill-light {
