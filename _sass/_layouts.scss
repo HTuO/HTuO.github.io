@@ -199,6 +199,7 @@ section {
   display: flex;
   flex-direction: column; /* stack children vertically */
   justify-content: center; /* vertical centering */
+  height: 100%;
 
     p {
       color: rgba(var(--light), 0.9);
