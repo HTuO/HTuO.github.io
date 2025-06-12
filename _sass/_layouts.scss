@@ -193,22 +193,23 @@ section {
   }
 
   .text-block {
-    padding-top: 8em;
-    padding-bottom: 8em;
+  padding-top: 0;
+  padding-bottom: 0;
 
-    p {
-      color: rgba(var(--light), 0.9);
-    }
-
-    small {
-      color: rgba(var(--light),0.8);
-    }
-
-    @media (max-width: 767px) {
-      padding-top: 5em;
-      padding-bottom: 5em
-    }
+  p {
+    color: rgba(var(--light), 0.9);
   }
+
+  small {
+    color: rgba(var(--light), 0.8);
+  }
+
+  // Apply spacing only on small screens (mobile/tablet)
+  @media (max-width: 767px) {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+}
   
 
   &.fill-light {
