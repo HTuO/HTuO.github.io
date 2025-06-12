@@ -193,9 +193,12 @@ section {
   }
 
  .text-block {
-    padding-top: 8em;
-    padding-bottom: 8em;
-   justify-content: center;
+  /*padding-top: 8em;
+  padding-bottom: 8em;
+  justify-content: center; */
+  display: flex;
+  flex-direction: column; /* stack children vertically */
+  justify-content: center; /* vertical centering */
 
     p {
       color: rgba(var(--light), 0.9);
