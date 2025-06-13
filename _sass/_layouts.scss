@@ -479,6 +479,7 @@ section {
 
   .bio {
     display: none;
+    background-color: rgba(var(--primary), 1); /*testing*/
     height: 0vh;
     width: 100%;
     margin: 0;
