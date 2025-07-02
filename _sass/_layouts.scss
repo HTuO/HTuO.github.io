@@ -283,6 +283,15 @@ section {
   }
 }
 
+.text-box {
+  background-color: rgba((var(--primary), 0.9); // adjust for transparency if needed
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); // optional
+  margin-top: 20px;
+}
+
 .category {
   display: flex;
   flex-direction: column;
