@@ -318,11 +318,13 @@ section {
 .section-pad-sm {
   padding-top: 2em;
   padding-bottom: 2em; 
+  align-items: center;
 }
 
 .section-pad-md {
   padding-top: 5em;
   padding-bottom: 5em;
+  align-items: center;
   
   @media (max-width: 767px) {
     padding-top: 3em;
@@ -333,6 +335,7 @@ section {
 .section-pad {
   padding-top: 8em;
   padding-bottom: 8em;
+  align-items: center;
 
   @media (max-width: 767px) {
     padding-top: 5em;
