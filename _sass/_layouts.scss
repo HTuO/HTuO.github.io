@@ -271,17 +271,16 @@ section {
 
 .image-glue {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end; // this aligns child to the right
   align-items: center;
 
   .image {
-    width: 100%;
+    width: auto;
 
     .img {
+      display: block;
       max-width: 100%;
       height: auto;
-      display: block;
-      margin: 0 auto;
     }
   }
 }
