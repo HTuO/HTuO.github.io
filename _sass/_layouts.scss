@@ -328,7 +328,7 @@ section {
   display: flex;
   align-items: center; // vertically center children
   flex-direction: column; // ensures vertical layout doesn't break
-  min-height: 100vh; // enough height to allow vertical centering
+  // min-height: 100vh; // enough height to allow vertical centering
   padding-top: 5em;
   padding-bottom: 5em;
   
