@@ -12,20 +12,22 @@
 <section class="section-pad-foot">
 </section>
 
-<div class="filter fill-dark text-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="form">
-          <p>Filter Events by</p>
-          <select class="form-control form-control-lg" v-model="selected" @change="filterNews($event)">
-            <option :value="tag" v-for="(tag,k) in tags" :key="k">[[tag]]</option>
-          </select>
+<section class="section-pad-round-sm">
+  <div class="filter fill-dark text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form">
+            <p>Filter Events by</p>
+            <select class="form-control form-control-lg" v-model="selected" @change="filterNews($event)">
+              <option :value="tag" v-for="(tag,k) in tags" :key="k">[[tag]]</option>
+            </select>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <!-- Section -->
 <section class="section-pad-md" ref="newsparent">
