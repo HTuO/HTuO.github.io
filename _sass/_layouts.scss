@@ -762,9 +762,9 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: center; // center contents horizontally
     gap: 1.5em;
-    flex-wrap: wrap; // so it stacks on small screens if needed
+    flex-wrap: wrap; // so on mobile they stack
 
     .filter-label {
       margin: 0;
