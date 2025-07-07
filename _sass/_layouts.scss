@@ -600,7 +600,7 @@ section {
       right: 1em;
       width: 32px;
       height: 32px;
-      background-color: rgba(var(--light)); //test --dark
+      background-color: #fff //rgba(var(--light));
       -webkit-mask: url('../img/icon-close.svg') no-repeat center right;
       -webkit-mask-size: 32px;
       opacity: 1;
