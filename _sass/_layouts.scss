@@ -358,6 +358,22 @@ section {
   }
 }
 
+.section-pad-round {
+  width: 96%;
+  margin: 0 auto;
+  padding-top: 8em;
+  padding-bottom: 8em;
+  border-radius: 2rem;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease-in-out;
+
+  @media (max-width: 767px) {
+    padding: 1.5em;
+    border-radius: 1rem;
+    width: 98%;
+  }
+}
+
 .section-pad {
   padding-top: 8em;
   padding-bottom: 8em;
