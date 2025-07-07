@@ -343,8 +343,8 @@ section {
 }
 
 .section-pad-foot {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 1.7em;
+  padding-bottom: 1.7em;
 
   @media (max-width: 767px) {
     padding-top: 1em;
@@ -386,6 +386,21 @@ section {
     padding: 1.5em;
     border-radius: 1rem;
     width: 96%;
+  }
+
+  .section-pad-round-sm {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-radius: 2rem;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease-in-out;
+
+  @media (max-width: 767px) {
+    padding: 1.5em;
+    border-radius: 1rem;
+    width: 95%;
   }
 
   .row {
