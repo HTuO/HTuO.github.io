@@ -756,23 +756,30 @@ section {
 
 // News
 .filter {
+  padding: 0; // Remove unnecessary padding here (you already have it in the section)
+
   .form {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center; // center contents horizontally
+    justify-content: center;
     gap: 1.5em;
-    flex-wrap: wrap; // so on mobile they stack
+    flex-wrap: nowrap;
+
+    @media (max-width: 767px) {
+      flex-wrap: wrap; // stack on mobile
+    }
 
     .filter-label {
       margin: 0;
       font-size: 1.25em;
+      white-space: nowrap;
     }
 
     select {
       width: 200px;
       appearance: none;
-      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'...");
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
       background-repeat: no-repeat;
       background-position: right 0.5em center;
       background-size: 1.5em;
