@@ -372,6 +372,12 @@ section {
     border-radius: 1rem;
     width: 98%;
   }
+
+  .row {
+    display: flex;
+    align-items: center; // vertically center columns
+    flex-wrap: wrap; // preserve Bootstrap wrapping behavior
+  }
 }
 
 .section-pad {
