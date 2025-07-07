@@ -13,19 +13,13 @@
 <section class="section-pad-md">
   <div class="container">
     <div class="row">
-      <div class="col-md-1">
-        <!--<h6>Facts & Questions</h6>
-        <p>Is there a missing question on this list? Let us know <a class="link-arrow" href="">Get in touch</a></p>-->
-      </div>
-      <div class="col-md-10">
+      <div class="col-md-8 col-md-offset-2">
         {%- for question in site.data.faq.questions -%}
           <div class="question">
             <h4>{{ question.question | text }}</h4>
             <p>{{ question.answer | text }}</p>
           </div>
         {%- endfor -%}
-      </div>
-      <div class="col-md-1">
       </div>
     </div>
   </div>
