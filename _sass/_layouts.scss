@@ -652,7 +652,7 @@ section {
 
     img {
       transform: scale(1.05);
-      border: calc(var(--size)/2) solid rgba(var(--primary),1);
+      border: calc(var(--size)/2) solid rgba(var(--dark),1);
       transition: all 0.3s;
     }
   }
