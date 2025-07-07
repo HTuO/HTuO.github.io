@@ -656,6 +656,16 @@ section {
       transition: all 0.3s;
     }
   }
+
+  a.board-link {
+  color: rgba(var(--text), 1);
+  text-decoration: none;
+
+    &:hover {
+      color: rgba(var(--primary), 1);
+      text-decoration: underline; // Optional
+    }
+  }
 }
 
 @media (max-width: 768px) {
