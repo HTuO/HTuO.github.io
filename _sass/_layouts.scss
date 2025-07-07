@@ -343,8 +343,8 @@ section {
 }
 
 .section-pad-foot {
-  padding-top: 1.7em;
-  padding-bottom: 1.7em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 
   @media (max-width: 767px) {
     padding-top: 1em;
@@ -388,6 +388,13 @@ section {
     width: 96%;
   }
 
+  .row {
+    display: flex;
+    align-items: center; // vertically center columns
+    flex-wrap: wrap; // preserve Bootstrap wrapping behavior
+  }
+}
+
   .section-pad-round-sm {
   width: 95%;
   margin: 0 auto;
@@ -403,7 +410,7 @@ section {
     width: 95%;
   }
 
-  .row {
+   .row {
     display: flex;
     align-items: center; // vertically center columns
     flex-wrap: wrap; // preserve Bootstrap wrapping behavior
