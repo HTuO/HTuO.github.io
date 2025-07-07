@@ -595,7 +595,7 @@ section {
     overflow: scroll;
 
     .close {
-      position: fixed;
+      /*position: fixed;
       top: 3.5em;
       right: 1em;
       width: 32px;
@@ -603,7 +603,17 @@ section {
       background-color: #fff //rgba(var(--light));
       -webkit-mask: url('../img/icon-close.svg') no-repeat center right;
       -webkit-mask-size: 32px;
+      opacity: 1; */
+
+      background-color: #fff;
+      -webkit-mask: url('../img/icon-close.svg') no-repeat center right;
+      -webkit-mask-size: 32px;
+      width: 32px;
+      height: 32px;
+      top: 3.5em;
+      right: 1em;
       opacity: 1;
+      border-radius: 100%;
     }
 
     .bio {
