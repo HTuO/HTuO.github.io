@@ -345,6 +345,12 @@ section {
 .section-pad-foot {
   padding-top: 1em;
   padding-bottom: 1em; 
+
+.row {
+    display: flex;
+    align-items: center; // vertically center columns
+    flex-wrap: wrap; // preserve Bootstrap wrapping behavior
+  }
 }
 
 .section-pad-md {
