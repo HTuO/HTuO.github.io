@@ -343,11 +343,11 @@ section {
 }
 
 .section-pad-foot {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
 
   @media (max-width: 767px) {
-    padding-top: 0.5em;
+    padding-top: 0.2em;
   } 
 
 .row {
@@ -399,8 +399,8 @@ section {
 .section-pad-round-sm {
   width: 90%;
   margin: 0 auto;
-  padding-top: 1.8em;
-  padding-bottom: 1.8em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   border-radius: 2rem;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease-in-out;
