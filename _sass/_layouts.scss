@@ -723,13 +723,13 @@ section {
   border-radius: 1.5em;
   text-decoration: none;
   background-color: transparent;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
   color: rgba(var(--text), 1);
 
   h6, p {
     margin: 0;
     text-decoration: none;
-    transition: color 0.2s ease-in-out;
+    transition: color 0.1s ease-in-out;
   }
 
   h6 {
@@ -747,7 +747,7 @@ section {
     background-color: rgba(var(--dark), 1);
 
     h6, p {
-      color: rgba(var(--light), 1); // ✅ now applies correctly
+      color: rgba(var(--light), 1); 
     }
   }
 }
