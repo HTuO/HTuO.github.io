@@ -7,20 +7,13 @@
     </div>
 
     <div class="row">
-      <div class="col-md-12 section-news-list">
+      <div class="col-md-12 news-list"> <!-- Use same layout class as full list -->
         {% assign news = site.data.news.events | reverse %}
         {%- for event in news limit:3 -%}
           <div class="article active">
             <div class="image" style="background-image: url({{ event.img }});">
               <span>{{ event.date }}</span>
             </div>
-            {%- if event.tags -%}
-              <p class="tags">
-                {%- for tag in event.tags -%}
-                  <span>{{ tag }}</span>
-                {%- endfor -%}
-              </p>
-            {%- endif -%}
             <h6>{{ event.title }}</h6>
             <p>{{ event.text | markdownify }}</p>
           </div>
