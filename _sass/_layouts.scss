@@ -760,14 +760,17 @@ section {
 
   .form {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 1.5em;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 
-    @media (max-width: 767px) {
-      flex-wrap: wrap; // stack on mobile
+    // NEW: ensure this centers & spans available width
+    width: 100%;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      flex-wrap: nowrap;
     }
 
     .filter-label {
