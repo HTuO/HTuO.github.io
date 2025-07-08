@@ -842,49 +842,59 @@ section {
     }
   }
 
-  .article {
+  .news-list .article {
+  background: rgba(var(--light), 1); // or use a color that fits your design
   border-radius: 0.5em;
-  overflow: hidden;
-  background-color: rgba(var(--primary), 0.03); // light background
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   padding: 1.5em;
   margin-bottom: 2em;
-  transition: box-shadow 0.3s ease;
-
-  &:hover {
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  }
-
-  .image {
-    width: 100%;
-    padding-bottom: 50%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 0.5em 0.5em 0 0;
-    position: relative;
-
-    span {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      font-size: 12px;
-      font-weight: 600;
-      background-color: rgba(var(--dark), 1);
-      color: rgba(var(--light), 1);
-      padding: 0.5em 1em;
-      margin: 0;
-      border-bottom-left-radius: 0.5em;
-    }
-  }
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05); // subtle depth
+  transition: all 0.3s ease-in-out;
+  color: rgba(var(--dark), 1); // makes sure text is dark on light bg
 
   h6 {
-    margin: 1em 0 0.5em;
-    font-weight: bold;
+    color: rgba(var(--dark), 1);
   }
 
   p {
-    margin-bottom: 0;
+    color: rgba(var(--dark), 0.8);
+  }
+}
+
+.article .image {
+  border-radius: 0.5em;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+  padding-bottom: 50%;
+}
+
+.article .image > span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: rgba(var(--dark), 1);
+  color: rgba(var(--light), 1);
+  padding: 0.5em 1em;
+  margin: 0;
+  border-top-right-radius: 0.5em;
+}
+
+.article .tags {
+  margin-bottom: 0.5em;
+
+  span {
+    display: inline-block;
+    background-color: rgba(var(--primary), 0.1);
+    color: rgba(var(--dark), 1);
+    padding: 0.2em 0.75em;
+    border-radius: 1em;
+    font-size: 0.75em;
+    font-weight: 500;
+    margin-right: 0.25em;
   }
 }
 
