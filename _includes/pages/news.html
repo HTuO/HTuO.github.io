@@ -18,7 +18,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="form">
-            <h4 class="filter-label">Filter Events by</h4>
+            <h3 class="filter-label">Filter Events by</h3>
             <select class="form-control form-control-lg" v-model="selected" @change="filterNews($event)">
               <option :value="tag" v-for="(tag,k) in tags" :key="k">[[tag]]</option>
             </select>
