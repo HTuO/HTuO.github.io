@@ -873,11 +873,11 @@ section {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-size: 0.75em; // or 12px
+  font-size: 0.75em;
   font-weight: 600;
   text-transform: uppercase;
   background-color: rgba(var(--dark), 1);
-  color: rgba(var(--light), 1); // not 0.7
+  color: rgba(var(--light), 1);
   padding: 0.75em 1.5em;
   margin: 0;
   border-top-right-radius: 0.5em;
@@ -889,7 +889,7 @@ section {
   span {
     display: inline-block;
     background-color: rgba(var(--primary), 0.1);
-    color: rgba(var(--light), 1);
+    color: rgba(var(--dark), 1);
     padding: 0.2em 0.75em;
     border-radius: 1em;
     font-size: 0.75em;
