@@ -153,18 +153,18 @@
           <h3>Board Members</h3>
         </div>
       </div>
-      <!--<div class="col-sm-12">
-        <h3>Board Members</h3>
-      </div>-->
     </div>
     <div class="row">
       <div class="team-list-2" :class="{active: teamActive}">
         {% for boardmember in site.data.board.people %}
         <div class="person" ref="boardmember-{{forloop.index}}">
           <div class="title">
-            <h6><a href="{{boardmember.link}}" class="nav-item board-link">{{boardmember.name}}</a></h6>
-            <!--<h6><a href="{{boardmember.link}}" style="color:#333;" class="nav-item">{{boardmember.name}}</a></h6>-->
-            <p>{{boardmember.role }}</p>
+            <h6>
+              <a href="{{boardmember.link}}" class="nav-item board-link">
+                {{ boardmember.name }}<br />
+                <span class="board-role">{{ boardmember.role }}</span>
+              </a>
+            </h6>
           </div>
         </div>
         {% endfor %}
