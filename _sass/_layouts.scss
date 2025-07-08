@@ -843,7 +843,7 @@ section {
   }
 
   .news-list .article {
-  background: #dddddd; 
+  background: rgba(var(--light), 1); 
   border-radius: 0.5em;
   padding: 1em;
   margin-bottom: 1em;
