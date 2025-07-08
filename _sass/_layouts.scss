@@ -824,21 +824,14 @@ section {
     display: grid;
     width: calc(100% - 0px);
     margin: 0 auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; // Mobile default
     column-gap: 50px;
     gap: 15px 10px;
   }
 
-  .section-news-list {
-    width: calc(100% - 30px);
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 50px;
-    padding: 2em 0 0 0;
-
-    p {
-      margin-bottom: 0;
+  @media (min-width: 768px) {
+    .news-list {
+      grid-template-columns: 1fr 1fr 1fr; // 3-column desktop layout
     }
   }
 
