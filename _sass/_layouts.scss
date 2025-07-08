@@ -721,26 +721,36 @@ section {
   display: inline-block;
   padding: 0.75em 1.25em;
   border-radius: 1.5em;
+  background-color: transparent;
+  text-decoration: none !important; // ✅ remove underline
+  transition: all 0.2s ease-in-out;
   color: rgba(var(--text), 1);
-  text-decoration: none;
-  transition: all 0.1s ease-in-out;
 
-  .board-role {
-    display: block;
-    font-size: 0.85em;
-    color: rgba(var(--text), 0.8);
-    margin-top: 0.25em;
+  h6, p {
+    margin: 0;
+    text-decoration: none !important; // ✅ ensure no underline on hover
   }
 
-    &:hover {
-      background-color: rgba(var(--dark), 1);
-      color: rgba(var(--light), 1);
+  h6 {
+    font-size: 1.1em;
+    color: inherit;
+  }
 
-      .board-role {
-        color: rgba(var(--light), 0.85);
-      }
+  p {
+    margin-top: 0.25em;
+    font-size: 0.9em;
+    color: rgba(var(--text), 0.75);
+  }
+
+  &:hover {
+    background-color: rgba(var(--dark), 1);
+    color: rgba(var(--light), 1);
+
+    h6, p {
+      color: rgba(var(--light), 1);
     }
   }
+}
 }
 
 @media (max-width: 768px) {
