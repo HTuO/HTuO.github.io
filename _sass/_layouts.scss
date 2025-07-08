@@ -347,7 +347,7 @@ section {
   padding-bottom: 2.5em;
 
   @media (max-width: 767px) {
-    padding-top: 0.2em;
+    padding: 0.2em;
   } 
 
 .row {
@@ -358,8 +358,8 @@ section {
 }
 
 .section-pad-md {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 6em;
+  padding-bottom: 6em;
 
   @media (max-width: 767px) {
     padding-top: 3em;
@@ -376,8 +376,8 @@ section {
 .section-pad-round {
   width: 90%;
   margin: 0 auto;
-  padding-top: 8em;
-  padding-bottom: 8em;
+  padding-top: 6em;
+  padding-bottom: 6em;
   border-radius: 2rem;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease-in-out;
