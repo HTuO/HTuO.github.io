@@ -160,9 +160,10 @@
         <div class="person" ref="boardmember-{{forloop.index}}">
           <div class="title">
             <h6>
-              <a href="{{boardmember.link}}" class="nav-item board-link">
-                {{ boardmember.name }}<br />
-                <span class="board-role">{{ boardmember.role }}</span>
+              <a href="{{ boardmember.link }}" class="nav-item board-link">
+                <h6>{{ boardmember.name }}</h6>
+                <p>{{ boardmember.role }}</p>
+              </a>
               </a>
             </h6>
           </div>
