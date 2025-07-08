@@ -843,49 +843,50 @@ section {
   }
 
   .article {
-    margin-bottom: 1em;
-    display: none;
+  border-radius: 0.5em;
+  overflow: hidden;
+  background-color: rgba(var(--primary), 0.03); // light background
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 1.5em;
+  margin-bottom: 2em;
+  transition: box-shadow 0.3s ease;
 
-    &.active {
-      display: block;
-    }
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
 
-    .image {  
-      position: relative;
-      background-color: rgba(var(--primary),0.05);
-      background-image: url(../img/img-waves.jpg);
-      background-size: cover;
-      padding-bottom: 50%;
-      margin-bottom: 1em;
+  .image {
+    width: 100%;
+    padding-bottom: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5em 0.5em 0 0;
+    position: relative;
 
-      span p {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        font-size: 12px;
-        font-weight: 600;
-        background-color: rgba(var(--dark),1);
-        color: rgba(var(--light),1);
-        text-transform: uppercase;
-        padding: 0.75em 1.5em;
-        margin: 0;
-      }
-    }
-
-    p {
-      margin-bottom: 1em;
-    }
-
-    .tags {
-      span {
-        padding: 0.2em 0.5em;
-        margin-right: 0.2em;
-        font-size: 0.8em;
-        color: rgba(var(--dark));
-        background: rgba(var(--text-light));
-      }
+    span {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      font-size: 12px;
+      font-weight: 600;
+      background-color: rgba(var(--dark), 1);
+      color: rgba(var(--light), 1);
+      padding: 0.5em 1em;
+      margin: 0;
+      border-bottom-left-radius: 0.5em;
     }
   }
+
+  h6 {
+    margin: 1em 0 0.5em;
+    font-weight: bold;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
 
   @media (min-width: 768px) {
     .news-list {
