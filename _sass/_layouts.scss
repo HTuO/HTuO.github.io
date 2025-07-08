@@ -398,12 +398,12 @@ section {
 
 .section-pad-round-sm {
   width: 95%;
+  margin: 0 auto;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   border-radius: 2rem;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease-in-out;
-  background-color: rgba(var(--primary), 0.05);
 
   @media (max-width: 767px) {
     padding: 1em;
