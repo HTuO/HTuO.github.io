@@ -42,7 +42,7 @@
               {{tag | prepend: ' '}} 
             {%- endfor -%}">
             <div class="image" style="background-image: url({{event.img}});">
-              <span>{{ event.date | markdownify }}</span>
+              <span>{{ event.date }}</span>
             </div>
             <p class="tags">
               {%- for tag in event.tags -%}
