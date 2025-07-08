@@ -17,8 +17,8 @@
     <div class="filter">
       <div class="row">
         <div class="col-md-12">
-          <div class="form d-flex align-items-center justify-content-center flex-wrap flex-md-nowrap gap-3">
-            <h4 class="filter-label m-0">Filter Events by</h4>
+          <div class="form">
+            <h4 class="filter-label">Filter Events by</h4>
             <select class="form-control form-control-lg" v-model="selected" @change="filterNews($event)">
               <option :value="tag" v-for="(tag,k) in tags" :key="k">[[tag]]</option>
             </select>
@@ -28,6 +28,7 @@
     </div>
   </div>
 </section>
+
 
 <!-- Section -->
 <section class="section-pad-md" ref="newsparent">
