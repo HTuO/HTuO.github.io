@@ -18,24 +18,48 @@
     <div class="filter-buttons text-center">
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-2 col-md-offset-1" style="margin-bottom: 1em;">
-          <button class="btn btn-primary btn-outline btn-block" @click="filterNews('all')">All</button>
+          <button class="btn btn-primary btn-outline btn-block" onclick="filterNews('all')">All</button>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-2" style="margin-bottom: 1em;">
-          <button class="btn btn-primary btn-outline btn-block" @click="filterNews('news')">News</button>
+          <button class="btn btn-primary btn-outline btn-block" onclick="filterNews('news')">News</button>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-2" style="margin-bottom: 1em;">
-          <button class="btn btn-primary btn-outline btn-block" @click="filterNews('events')">Events</button>
+          <button class="btn btn-primary btn-outline btn-block" onclick="filterNews('events')">Events</button>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-2" style="margin-bottom: 1em;">
-          <button class="btn btn-primary btn-outline btn-block" @click="filterNews('investments')">Investments</button>
+          <button class="btn btn-primary btn-outline btn-block" onclick="filterNews('investments')">Investments</button>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-2" style="margin-bottom: 1em;">
-          <button class="btn btn-primary btn-outline btn-block" @click="filterNews('awards')">Awards</button>
+          <button class="btn btn-primary btn-outline btn-block" onclick="filterNews('awards')">Awards</button>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Filtering Script -->
+<script>
+  function filterNews(tag) {
+    const articles = document.querySelectorAll('.article');
+    articles.forEach(article => {
+      // Always show if tag is 'all'
+      if (tag === 'all') {
+        article.classList.add('active');
+        article.style.display = 'block';
+      } else {
+        // Check if the article has the class for the tag
+        if (article.classList.contains(tag)) {
+          article.classList.add('active');
+          article.style.display = 'block';
+        } else {
+          article.classList.remove('active');
+          article.style.display = 'none';
+        }
+      }
+    });
+  }
+</script>
+
 
 <!-- Section: News List -->
 <section class="section-pad-md" ref="newsparent">
