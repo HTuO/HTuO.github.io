@@ -9,45 +9,51 @@
   </div>
 </section>
 
-<!--Section-->
-<section class="section-pad-round-sm text-light fill-dark">
+<section class="section-pad-foot">
+</section>
+
+<!-- Section: Filter Buttons -->
+<section class="section-pad-round-sm text-light">
   <div class="container">
-    <!-- Filter Buttons -->
-    <div class="filter-buttons text-center" style="margin-bottom: 100px;">
       <button class="btn btn-primary btn-outline" @click="filterNews('all')">All</button>
       <button class="btn btn-primary btn-outline" @click="filterNews('news')">News</button>
       <button class="btn btn-primary btn-outline" @click="filterNews('events')">Events</button>
       <button class="btn btn-primary btn-outline" @click="filterNews('investments')">Investments</button>
       <button class="btn btn-primary btn-outline" @click="filterNews('awards')">Awards</button>
     </div>
-    <!-- News List -->
-    <div class="news-list">
-      <div class="row" ref="newsparent">
-        <div class="col-md-12">
-          {%- for event in site.data.news.events reversed -%}
-            <div 
-              ref="article-{{forloop.index}}"
-              class="article active 
-                {%- for tag in event.tags -%}
-                  {{tag | prepend: ' '}} 
-                {%- endfor -%}">
-              <div class="image" style="background-image: url({{event.img}});">
-                <span>{{ event.date }}</span>
-              </div>
-              <p class="tags">
-                {%- for tag in event.tags -%}
-                  <span ref="n-{{tag}}">{{tag}}</span>
-                {%- endfor -%}
-              </p>
-              <h6>{{event.title}}</h6>
-              <p>{{ event.text | markdownify }}</p>
+  </div>
+</section>
+
+<!-- Section: News List -->
+<section class="section-pad-md" ref="newsparent">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 news-list">
+        {%- for event in site.data.news.events reversed -%}
+          <div 
+            ref="article-{{forloop.index}}"
+            class="article active 
+              {%- for tag in event.tags -%}
+                {{tag | prepend: ' '}} 
+              {%- endfor -%}">
+            <div class="image" style="background-image: url({{event.img}});">
+              <span>{{ event.date }}</span>
             </div>
-          {%- endfor -%}
-        </div>
+            <p class="tags">
+              {%- for tag in event.tags -%}
+                <span ref="n-{{tag}}">{{tag}}</span>
+              {%- endfor -%}
+            </p>
+            <h6>{{event.title}}</h6>
+            <p>{{ event.text | markdownify }}</p>
+          </div>
+        {%- endfor -%}
       </div>
     </div>
   </div>
 </section>
 
+<section class="section-pad-foot">
+</section>
 
 <!-- {% include blocks/collaborate.html %} -->
