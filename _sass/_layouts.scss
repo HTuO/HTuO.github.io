@@ -796,10 +796,18 @@ section {
 
     h6 {
       color: rgba(var(--dark), 1);
+      margin-top: 0; // Remove default top margin for consistent spacing
     }
 
     p {
       color: rgba(var(--dark), 0.8);
+      margin: 0; // Reset default margin
+    }
+
+    // Paragraph text spacing below date and above bottom of box
+    p:not(.tags):not(.date) {
+      margin-top: 1em;
+      margin-bottom: 1em;
     }
   }
 
@@ -813,20 +821,18 @@ section {
     padding-bottom: 50%;
   }
 
-  // NEW: Date below tags
   .article .date {
     font-size: 0.75em;
     font-weight: 600;
     text-transform: uppercase;
     background-color: rgba(var(--dark), 1);
-    color: rgba(var(--light), 1)!important;
+    color: rgba(var(--light), 1) !important; // Ensure white text
     padding: 0.5em 1em;
     display: inline-block;
     border-radius: 0.25em;
     margin-bottom: 1em;
   }
 
-  // Tags styling — used on other pages
   .tags {
     margin-bottom: 0.5em;
 
