@@ -828,7 +828,7 @@ section {
     text-transform: uppercase;
     background-color: rgba(var(--dark), 1);
     color: rgba(var(--light), 1) !important;
-    padding: 0.25em 0.25em;
+    padding: 0.5em 0.1em;
     display: inline-block;
     border-radius: 0.25em;
   }
@@ -838,7 +838,7 @@ section {
       display: inline-block;
       background-color: rgba(var(--primary), 1);
       color: rgba(var(--light), 1);
-      padding: 0.2em 0.75em;
+      padding: 0.2em 0.3em;
       border-radius: 1em;
       font-size: 0.75em;
       font-weight: 500;
