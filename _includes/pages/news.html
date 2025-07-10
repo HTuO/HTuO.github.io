@@ -15,11 +15,24 @@
 <!-- Section: Filter Buttons -->
 <section class="section-pad-round-sm text-light">
   <div class="container">
-      <button class="btn btn-primary btn-outline" @click="filterNews('all')">All</button>
-      <button class="btn btn-primary btn-outline" @click="filterNews('news')">News</button>
-      <button class="btn btn-primary btn-outline" @click="filterNews('events')">Events</button>
-      <button class="btn btn-primary btn-outline" @click="filterNews('investments')">Investments</button>
-      <button class="btn btn-primary btn-outline" @click="filterNews('awards')">Awards</button>
+    <div class="filter-buttons text-center" style="margin-bottom: 100px;">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-2 col-md-offset-1" style="margin-bottom: 1em;">
+          <button class="btn btn-primary btn-outline btn-block" @click="filterNews('all')">All</button>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2" style="margin-bottom: 1em;">
+          <button class="btn btn-primary btn-outline btn-block" @click="filterNews('news')">News</button>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2" style="margin-bottom: 1em;">
+          <button class="btn btn-primary btn-outline btn-block" @click="filterNews('events')">Events</button>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2" style="margin-bottom: 1em;">
+          <button class="btn btn-primary btn-outline btn-block" @click="filterNews('investments')">Investments</button>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2" style="margin-bottom: 1em;">
+          <button class="btn btn-primary btn-outline btn-block" @click="filterNews('awards')">Awards</button>
+        </div>
+      </div>
     </div>
   </div>
 </section>
