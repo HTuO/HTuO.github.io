@@ -71,17 +71,19 @@
             ref="article-{{forloop.index}}"
             class="article active 
               {%- for tag in event.tags -%}
-                {{tag | prepend: ' '}} 
+                {{ tag | prepend: ' ' }} 
               {%- endfor -%}">
-            <div class="image" style="background-image: url({{event.img}});"></div>
-            <p class="tags">
-              {%- for tag in event.tags -%}
-                <span ref="n-{{tag}}">{{tag}}</span>
-              {%- endfor -%}
-            </p>
-            <p class="date">{{ event.date }}</p>
-            <h6>{{ event.title }}</h6>
-            <p>{{ event.text | markdownify }}</p>
+            <div class="image" style="background-image: url({{ event.img }});"></div>
+            <div class="content">
+              <p class="tags">
+                {%- for tag in event.tags -%}
+                  <span ref="n-{{tag}}">{{ tag }}</span>
+                {%- endfor -%}
+              </p>
+              <p class="date">{{ event.date }}</p>
+              <h6>{{ event.title }}</h6>
+              <p>{{ event.text | markdownify }}</p>
+            </div>
           </div>
         {%- endfor -%}
       </div>
