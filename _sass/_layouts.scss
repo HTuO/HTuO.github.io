@@ -776,7 +776,7 @@ section {
   }
 }
 
-//News
+// News Section Styles
 .news {
   .news-list {
     display: grid;
@@ -784,6 +784,22 @@ section {
     margin: 0 auto;
     grid-template-columns: 1fr;
     gap: 15px 10px;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr 1fr; // Default: 3-column grid on desktop
+    }
+  }
+
+  // Modifier for Full News Page
+  .news-list.news-page {
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr; // 2-column grid on desktop
+    }
+
+    .article {
+      font-size: 1.1em; // Optional: Slightly bigger text
+      padding: 1.5em;   // Optional: Bigger padding
+    }
   }
 
   .news-list .article {
@@ -818,7 +834,7 @@ section {
     position: relative;
     background-size: cover;
     background-position: center;
-    margin-bottom: 1em; // fallback
+    margin-bottom: 1em;
     padding-bottom: 50%;
   }
 
@@ -843,12 +859,6 @@ section {
       font-size: 0.75em;
       font-weight: 500;
       margin-right: 0.25em;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .news-list {
-      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 }
