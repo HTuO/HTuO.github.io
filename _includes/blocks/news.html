@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 col-xs-12 text-center">
-        <h3 style="text-align: center;">Recent News & Events</h3>
+        <h3>Recent News & Events</h3>
       </div>
     </div>
 
@@ -12,9 +12,11 @@
         {%- for event in news limit:3 -%}
           <div class="article active">
             <div class="image" style="background-image: url({{ event.img }});"></div>
-            <p class="date">{{ event.date }}</p> <!-- Date moved here -->
-            <h6>{{ event.title }}</h6>
-            <p>{{ event.text | markdownify }}</p>
+            <div class="content">
+              <p class="date">{{ event.date }}</p>
+              <h6>{{ event.title }}</h6>
+              <p>{{ event.text | markdownify }}</p>
+            </div>
           </div>
         {%- endfor -%}
       </div>
