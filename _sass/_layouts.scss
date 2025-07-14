@@ -790,7 +790,6 @@ section {
     }
   }
 
-  // Modifier for Full News Page
   .news-list.news-page {
     @media (min-width: 768px) {
       grid-template-columns: 1fr 1fr; // 2-column grid on desktop
@@ -798,7 +797,7 @@ section {
 
     .article {
       font-size: 1.1em; // Optional: Slightly bigger text
-      padding: 1.5em;   // Optional: Bigger padding
+      padding: 1.25em;   // Optional: Bigger padding
     }
   }
 
@@ -844,7 +843,7 @@ section {
     text-transform: uppercase;
     background-color: rgba(var(--dark), 1);
     color: rgba(var(--light), 1) !important;
-    padding: 0.75em 0.5em;
+    padding: 0.5em 0.75em;
     display: inline-block;
     border-radius: 0.25em;
   }
