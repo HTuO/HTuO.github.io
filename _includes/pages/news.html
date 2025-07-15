@@ -12,6 +12,7 @@
 <section class="section-pad-foot">
 </section>
 
+
 <!-- Section: Filter Buttons -->
 <section class="section-pad-round-sm text-light">
   <div class="container">
@@ -36,6 +37,7 @@
     </div>
   </div>
 </section>
+
 
 <!-- Filtering Script -->
 <script>
@@ -73,9 +75,7 @@
               {%- for tag in event.tags -%}
                 {{ tag | prepend: ' ' }} 
               {%- endfor -%}">
-            <div class="image">
-              <div class="image-bg" style="background-image: url({{ event.img }});"></div>
-            </div>
+            <div class="image" style="background-image: url({{ event.img }});"></div>
             <div class="content">
               <p class="tags">
                 {%- for tag in event.tags -%}
@@ -92,5 +92,6 @@
     </div>
   </div>
 </section>
+
 
 <!-- {% include blocks/collaborate.html %} -->
