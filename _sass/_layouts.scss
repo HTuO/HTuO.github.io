@@ -776,6 +776,7 @@ section {
   }
 }
 
+//News
 .news {
   .news-list {
     display: grid;
@@ -785,13 +786,13 @@ section {
     gap: 15px 10px;
 
     @media (min-width: 768px) {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr; // 3-column default
     }
   }
 
   .news-list.news-page {
     @media (min-width: 768px) {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr; // 2-column on news page
     }
 
     .article {
@@ -802,9 +803,17 @@ section {
       }
 
       .image {
-        margin: 0;
+        padding: 0.01em; // Thin padding around the image
+        background-clip: content-box;
         width: 100%;
         border-radius: 0.5em 0.5em 0 0;
+        overflow: hidden;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding-bottom: 50%;
+        display: block;
       }
     }
   }
@@ -812,12 +821,15 @@ section {
   .news-list .article {
     background: #f5f6fb;
     border-radius: 0.5em;
+    padding: 0.75em; // Default article padding
     margin-bottom: 0.75em;
     transition: all 0.1s ease-in-out;
     color: rgba(var(--dark), 1);
     overflow: hidden;
 
     .image {
+      padding: 0.01em; // Apply thin padding universally
+      background-clip: content-box;
       border-radius: 0.5em 0.5em 0 0;
       overflow: hidden;
       position: relative;
