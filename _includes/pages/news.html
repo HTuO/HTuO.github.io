@@ -68,16 +68,18 @@
       <div class="col-md-12 news-list news-page">
         {%- for event in site.data.news.events reversed -%}
           <div 
-            ref="article-{{forloop.index}}"
+            ref="article-{{ forloop.index }}"
             class="article active 
               {%- for tag in event.tags -%}
                 {{ tag | prepend: ' ' }} 
               {%- endfor -%}">
-            <div class="image" style="background-image: url({{ event.img }});"></div>
+            <div class="image">
+              <div class="image-bg" style="background-image: url({{ event.img }});"></div>
+            </div>
             <div class="content">
               <p class="tags">
                 {%- for tag in event.tags -%}
-                  <span ref="n-{{tag}}">{{ tag }}</span>
+                  <span ref="n-{{ tag }}">{{ tag }}</span>
                 {%- endfor -%}
               </p>
               <p class="date">{{ event.date }}</p>
