@@ -438,6 +438,21 @@ section {
   flex-wrap: wrap;
 }
 
+.section-pad-news {
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+
+  @media (max-width: 767px) {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+  }
+
+  .row {
+    display: flex;
+    align-items: center; // vertically center columns
+    flex-wrap: wrap; // preserve Bootstrap wrapping behavior
+  }
+}
 
 .section-pad {
   padding-top: 8em;
