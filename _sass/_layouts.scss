@@ -416,8 +416,8 @@ section {
 .section-pad-round-title {
   width: 90%;
   margin: 0 auto;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   border-radius: 2rem;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease-in-out;
@@ -425,8 +425,8 @@ section {
 
 @media (max-width: 767px) {
   .section-pad-round-title {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     border-radius: 1rem;
     width: 96%;
   }
