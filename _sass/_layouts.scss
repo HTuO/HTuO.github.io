@@ -678,51 +678,56 @@ section {
   }
 
   &.profile-active {
-    z-index: 100;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;
-    width: 100% !important;
+    width: 100vw;
     height: 100vh;
-    padding-top: 100px;
-    background-color: rgba(var(--secondary)); //test --light
-    transition: background 0.5s;
-    overflow: scroll;
+    background-color: rgba(var(--secondary), 1); // or your desired background
+    z-index: 1000;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5em;
 
-    .close {
-      position: fixed;
-      top: 3.5em;
-      right: 1em;
-      width: 32px;
-      height: 32px;
-      background-color: rgba(var(--light));
-      -webkit-mask: url('../img/icon-close.svg') no-repeat center right;
-      -webkit-mask-size: 32px;
-      opacity: 1; 
-    }
-
-    .bio {
-      display: block;      
-      height: inherit;      
-      transition: all 0.3s;
-      
-    }
-
-    img {
-      height: initial;
-    }
-
-    &:after {
-      left: -25vw;
-      top: -25vh;
-      width: 50vw;
-      height: 50vw;
-      transition: all 0.3s;
-    }
-    
+  .bio {
+    display: block;
+    background-color: rgba(var(--primary), 1);
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 2em;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s;
   }
 
+  .close {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  @media (max-width: 768px) {
+    .person.profile-active .bio {
+      width: 96%;
+      padding: 1.5em 1em;
+    }
+
+    .person.profile-active .close {
+      top: 1em;
+      right: 1em;
+      font-size: 1.5rem;
+    }
+  }
+}
+  
   &:hover {
     cursor: pointer;
     
