@@ -32,6 +32,7 @@ Required:
 * Demonstrated proficiency in software optimization
 * 5+ years of continuous professional software development experience in industry
 
+  
 Preferred:
 * Experience with git and test-driven development
 * Strong understanding of software development life cycle
