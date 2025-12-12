@@ -27,13 +27,13 @@ Vancouver, BC (Hybrid, 2-3 days in office)
 ### Qualifications:
 Required: 
 * Substantial software delivery experience in C++ and Python
-* Strong experience with CUDA development
 * Deep and nuanced understanding of algorithms, computing machine organization, and writing efficient, optimized code
 * Demonstrated proficiency in software optimization
 * 5+ years of continuous professional software development experience in industry
 
   
 Preferred:
+* Experience with CUDA development would be a significant asset
 * Experience with git and test-driven development
 * Strong understanding of software development life cycle
 * Familiarity with the Linux terminal and Bash scripting is a plus
