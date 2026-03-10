@@ -37,6 +37,7 @@ Preferred:
 * Experience with git and test-driven development
 * Strong understanding of software development life cycle
 * Familiarity with the Linux terminal and Bash scripting is a plus
+* Experience with CUDA development would be a significant asset
 
 
 ### Compensation
