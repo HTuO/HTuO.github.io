@@ -258,3 +258,8 @@ The poster will also be at the COMP division session at ACS on August 15th from 
   img: "../img/news/DDCEuro-poster-present.png"
   tags: [ "news","event" ]
 ##############
+- date: "March 12, 2026"
+  text: "Dr. Yi-Hsuan Lin, our R&D Lead, and Dr. Mathew Neal, our Computational Chemistry Application Scientist, will present HTuO’s poster at [ACS Spring 2026](https://www.acs.org/events/spring.html) happening in Atlanta, March 22-26, 2026. They will be at poster #22 in room B3/B4 (Exhibit Hall) on Tuesday, March 24, 6 PM - 8 PM to share about HTuO’s technology."
+  img: "../img/news/ACS_2026.png"
+  tags: [ "news","event" ]
+##############
