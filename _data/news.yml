@@ -263,3 +263,8 @@ The poster will also be at the COMP division session at ACS on August 15th from 
   img: "../img/news/ACS_2026_2.jpg"
   tags: [ "news","event" ]
 ##############
+- date: "April 21, 2026"
+  text: "HTuO is proud to be selected as one of the “Sweet 16” for [Sweet Biopharma Day](https://bioquebec.com/en/evenement/sweet-pharma-day/) on April 29. Our CEO, Anthony Fejes, will be presenting our technology at the Sucrerie Bonaventure in Mirabel, to a curated group of pharmaceutical industry leaders, investors, and life sciences organizations. We are honoured to be part of this cohort and look forward to the event!"
+  img: "../img/news/SweetBioPharma2026.png"
+  tags: [ "news","event" ]
+##############
