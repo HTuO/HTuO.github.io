@@ -10,37 +10,40 @@ date: 2026-06-02
 
 HTuO Biosciences is a Vancouver-based biotech company working at the interface of chemistry, physics, and computer programming to accelerate drug discovery. We are an early-stage team with a clear vision and a strong commitment to honesty and transparency.
 
-We are now seeking a Fractional CFO to join us as a strategic financial partner through the next phase of growth with an anticipated Seed Raise beginning in the early fall of this year.  The ideal candidate will either grow their role to become a full time CFO, or to assist with the transition when necessary.
-
+We are now seeking a Fractional CFO to join us as a strategic financial partner through the next phase of growth with an anticipated Seed Raise beginning soon.  The ideal candidate will either grow their role to become a full time CFO, or to assist with the transition when necessary.
 
 ### Responsibilities:
-The responsibilities will evolve over the engagement. This is how we see the first twelve months (with the caveat of the timelines possibly changing as priorities evolve): 
-
-#### Months 1-3: Foundation
-* Review the company’s current financial condition and develop a robust, investor-grade financial model
-* Align financial statements to the model and operating plan 
-* Identify gaps in accounting policies, tooling, and process and make actionable recommendations
-* Develop financial scenario models and projections 
+#### Immediate 
+* Building financial operations from scratch (accounting, FP&A, systems).
 * Prepare investor materials and data room financials
+* Optimize capital structure and align financial resources with strategy.
 
-#### Months 3-6: Fundraise Execution
-* Support the equity raise: financial diligence response, investor Q&A, and direct participation in diligence calls
+#### Transitional
+* Implementing scalable processes for rapid growth (e.g., from $1M → $20M revenue).
+* Lead the 100‑day plan: reporting, controls, KPIs, systems alignment.
+* Identify gaps in accounting policies, tooling, and process and make actionable recommendations
 
-#### Months 6-12: Ongoing
-* Maintain and update the financial model as assumptions evolve through and after the raise
-* Ensure internal reporting continues to reflect the investor narrative
-* Advise on financial infrastructure improvements as the company scales
+
+#### Ongoing
+* Strategic financial leadership and capital management.
+* Oversee cash flow management, liquidity planning, banking relationships, and reserve strategy
+* Use data analytics for real-time insights and decision-making.
+* Optimize capital structure and align financial resources with strategy. 
+* Managing capital raises, recapitalizations, and M&A. 
+* Support funding strategies and capital planning to ensure the organization's long-term financial health
+* Perform Variance Analysis
+* Value creation: scaling operations, optimizing cash, preparing for exit
 
 
 ### Qualifications:
 
 Required: 
-* Direct Canadian experience in the biotech or life sciences industry 
-* 4+ years in a fractional CFO capacity, with multiple engagements 
-* Demonstrable track record of excellence in past fractional roles 
+* open to first-time CFO for someone with 5-10 years at large company director+ level of experience,  
+* Experience in a fractional CFO capacity, with multiple engagements, or as a full time CFO in a biotech related company 
 * Proven experience supporting early-stage companies through equity fundraising, including investor materials and active participation in diligence
 
 Preferred:
+* Direct Canadian experience in the biotech or life sciences industry 
 * Based in Vancouver or on the West Coast 
 * Existing relationships within the biotech investor community within Canada and the US
 * Experience advising on financial systems for early-stage companies
@@ -52,6 +55,7 @@ Preferred:
 * You are transparent and honest by default
 * You communicate clearly with non-finance founders and help them understand what the numbers mean for decisions
 * You want to grow with companies you believe in
+* Hands-on leadership style with deep attention to detail.
 
 
 ### Engagement & Compensation:
