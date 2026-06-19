@@ -37,12 +37,12 @@ We are now seeking a Fractional CFO to join us as a strategic financial partner 
 
 ### Qualifications:
 
-Required: 
+#### Required: 
 * open to first-time CFO for someone with 5-10 years at large company director+ level of experience,  
 * Experience in a fractional CFO capacity, with multiple engagements, or as a full time CFO in a biotech related company 
 * Proven experience supporting early-stage companies through equity fundraising, including investor materials and active participation in diligence
 
-Preferred:
+#### Preferred:
 * Direct Canadian experience in the biotech or life sciences industry 
 * Based in Vancouver or on the West Coast 
 * Existing relationships within the biotech investor community within Canada and the US
