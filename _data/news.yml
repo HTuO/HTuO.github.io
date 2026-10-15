@@ -273,3 +273,7 @@ The poster will also be at the COMP division session at ACS on August 15th from 
   img: "../img/news/BIO2026.jpg"
   tags: [ "news","event" ]
 ##############
+- date: "October 15, 2026"
+  text: "Jacek Mis, our VP of Business Development is representing HTuO at [BIO-Europe 2026](https://informaconnect.com/bioeurope/) on November 9-11, 2026 in  Cologne, Germany. If you’d like to connect with Jacek to learn more about HTuO and our technology, reach out via the partnering portal or email us directly at info@htuobio.com."
+  img: "../img/news/BIO_Europe_2026.png"
+  tags: [ "news","event" ]
